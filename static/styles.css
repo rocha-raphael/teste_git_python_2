@@ -128,25 +128,25 @@ table.dataframe td {
 }
 
 .modal {
-    display: none; /* Oculto por padrão */
-    position: fixed; /* Fixo na tela */
-    z-index: 1; /* Fica em cima de outros elementos */
+    display: none;
+    position: fixed;
+    z-index: 1;
     left: 0;
     top: 0;
-    width: 100%; /* Largura total */
-    height: 100%; /* Altura total */
-    overflow: auto; /* Habilita rolagem se necessário */
-    background-color: rgb(0, 0, 0); /* Cor de fundo preta */
-    background-color: rgba(0, 0, 0, 0.4); /* Fundo preto com transparência */
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.4);
 }
 
 .modal-content {
     background-color: #fff;
-    margin: 15% auto; /* Centraliza o modal */
+    margin: 15% auto;
     padding: 20px;
     border: 1px solid #888;
     border-radius: 8px;
-    width: 300px; /* Largura do modal */
+    width: 300px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
@@ -185,7 +185,7 @@ input[type="number"] {
 
 
 button {
-    background-color: #4CAF50; /* Verde */
+    background-color: #4CAF50;
     color: white;
     padding: 10px 15px;
     border: none;
